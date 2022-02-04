@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8">
+    <title>Додаток 1 до звіту ФО-П (форма F0133107)</title>
+    <meta name="viewport" content="width=device-width">
+    <style>
+      html { font-family: "Liberation Serif", "Times New Roman"; font-size: 8pt }
+      body { color: black; background: white }
+      table, tr, th, td { border-collapse: collapse }
+      td, th, div.border { padding: 0 .25rem }
+      h1 { font-size: inherit; margin: .75rem 0 .25rem 0; text-align: center }
+      section section, .thin-spacer { margin-top: 1.25mm }
+      
+      .caps, h1 { font-weight: bold; font-variant: small-caps }
+      .nowrap { white-space: nowrap }
+      .fs-5 { font-size: 5pt }
+      .fs-6 { font-size: 6pt }
+      .fs-12 { font-size: 12pt }
+      .w-0 { width: 0 }
+      .w-12 { width: 12.5% }
+      .w-16 { width: 16.666% }
+      .w-20 { width: 20% }
+      .w-25 { width: 25% }
+      .w-50 { width: 50% }
+      .w-62 { width: 62.5% }
+      .w-75 { width: 75% }
+      .w-80 { width: 80% }
+      .w-100 { width: 100% }
+      .border, .border > tbody > tr > td, .border > tbody > tr > th { border: .25pt solid black }
+      .align-bottom { vertical-align: bottom }
+      .text-center { text-align: center }
+      .text-left { text-align: left !important }
+      .text-right { text-align: right !important }
+      .p-0 { padding: 0 }
+
+      .check { font-weight: bold }
+      .box { padding: 0 5pt }
+      .box span { margin: 0 -10pt 0 -3.5pt }
+      .input { font-style: italic; text-align: center }
+      .legend td, .legend th { padding: .175rem .25rem }
+      .legend .symbol { vertical-align: top; text-align: right }
+
+      @media screen {
+        html { background: #666; padding: 20px }
+        body { width: 210mm; margin: 0 auto; padding: 10mm }
+        td.check, td.input { background: #cfc }
+        .demo-page-break { margin: 20mm -10mm 10mm -10mm; height: 5mm; background: #666 }
+        .legend { margin-bottom: 40mm }
+      }
+      @media print {
+        html, body { margin: 0; padding: 0 }
+        section { page-break-inside: avoid }
+        .demo-page-break { display: none }
+      }
+    </style>
+  </head>
+  <body>
+
+    <section>
+      <table class="w-100">
+        <tr>
+          <td class="nowrap align-bottom p-0">
+            <div class="border fs-6">
+              Відмітка про одержання<br>
+              (штамп контролюючого органу, дата, вхідний номер)
+            </div>
+          </td>
+          <td class="w-100"></td>
+          <td class="nowrap">
+            <span class="caps">Додаток 1</span><br>
+            до податкової декларації<br>
+            платника єдиного податку — фізичної особи-підприємця
+          </td>
+        </tr>
+      </table>
+
+      <div class="thin-spacer"></div>
+
+      <table class="w-100 border">
+        <tr>
+          <td class="text-center w-100 fs-12" rowspan="4">
+            <span class="caps">Відомості <sup>*</sup></span><br>
+            про суми нарахованого доходу застрахованих осіб та суми нарахованого єдиного внеску
+          </td>
+          <td>01</td>
+          <td class="check box"><span>✓</span></td>
+          <td class="nowrap">Звітна</td>
+        </tr>
+        <tr>
+          <td>02</td>
+          <td class="box"></td>
+          <td class="nowrap">Звітна нова¹</td>
+        </tr>
+        <tr>
+          <td>03</td>
+          <td class="box"></td>
+          <td class="nowrap">Уточнююча²</td>
+        </tr>
+        <tr>
+          <td>04</td>
+          <td class="box"></td>
+          <td class="nowrap">Довідково³</td>
+        </tr>
+      </table>
+
+      <div class="thin-spacer"></div>
+
+      <table class="w-100 border">
+        <tr>
+          <td>1</td>
+          <td class="w-80">Реєстраційний номер облікової картки платника податків або серія (за наявності) та номер паспорта⁴</td>
+          <td class="w-20 input">
+            <!-- FIXME -->
+          </td>
+        </tr>
+      </table>
+
+      <div class="thin-spacer"></div>
+
+      <table class="w-100 border">
+        <tr>
+          <td>2</td>
+          <td class="w-80">Серія (за наявності) та номер паспорта для ідентифікації платника єдиного внеску у Пенсійному фонді України⁵</td>
+          <td class="w-20 input">
+            <!-- FIXME -->
+          </td>
+        </tr>
+      </table>
+
+      <div class="thin-spacer"></div>
+
+      <table class="w-100 border">
+        <tr>
+          <td>3</td>
+          <td class="w-50">Прізвище, імя, по батькові (за навності)</td>
+          <td class="w-50 input">
+            <!-- FIXME -->
+          </td>
+        </tr>
+      </table>
+
+      <div class="thin-spacer"></div>
+
+      <table class="w-100 border">
+        <tr>
+          <td>4</td>
+          <td class="w-100">
+            Податковий (звітний) період:
+            <table class="w-100">
+              <tr>
+                <td class="w-16">
+                  <table class="w-100">
+                    <tr>
+                      <td class="border check box"></td>
+                      <td class="w-100">І квартал</td>
+                    </tr>
+                  </table>
+                </td>
+                <td class="w-16">
+                  <table class="w-100">
+                    <tr>
+                      <td class="border check box"></td>
+                      <td class="w-100">півріччя</td>
+                    </tr>
+                  </table>
+                </td>
+                <td class="w-16">
+                  <table class="w-100">
+                    <tr>
+                      <td class="border check box"></td>
+                      <td class="w-100">три квартали</td>
+                    </tr>
+                  </table>
+                </td>
+                <td class="w-16">
+                  <table class="w-100">
+                    <tr>
+                      <td class="border check box"><span>✓</span></td>
+                      <td class="w-100">рік</td>
+                    </tr>
+                  </table>
+                </td>
+                <td class="w-16">
+                  <table class="w-100">
+                    <tr>
+                      <td class="w-50 border input"></td>
+                      <td class="w-50">місяць⁶</td>
+                    </tr>
+                  </table>
+                </td>
+                <td class="w-16">
+                  <table class="w-100">
+                    <tr>
+                      <td class="w-50 border input">
+                        <!-- FIXME -->
+                        2021
+                      </td>
+                      <td class="w-50">року</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <div class="fs-6">(необхідне позначити)</div>
+            <div class="thin-spacer"></div>
+            Податковий (звітний) період, який уточнюється
+            <table class="w-100">
+              <tr>
+                <td class="w-16">
+                  <table class="w-100">
+                    <tr>
+                      <td class="border box"></td>
+                      <td class="w-100">І квартал</td>
+                    </tr>
+                  </table>
+                </td>
+                <td class="w-16">
+                  <table class="w-100">
+                    <tr>
+                      <td class="border box"></td>
+                      <td class="w-100">півріччя</td>
+                    </tr>
+                  </table>
+                </td>
+                <td class="w-16">
+                  <table class="w-100">
+                    <tr>
+                      <td class="border box"></td>
+                      <td class="w-100">три квартали</td>
+                    </tr>
+                  </table>
+                </td>
+                <td class="w-16">
+                  <table class="w-100">
+                    <tr>
+                      <td class="border box"></td>
+                      <td class="w-100">рік</td>
+                    </tr>
+                  </table>
+                </td>
+                <td class="w-16"></td>
+                <td class="w-16">
+                  <table class="w-100">
+                    <tr>
+                      <td class="w-50 border"></td>
+                      <td class="w-50">року</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <div class="fs-6">(необхідне позначити)</div>
+          </td>
+        </tr>
+      </table>
+
+      <div class="thin-spacer"></div>
+
+      <table class="w-100 border">
+        <tr>
+          <td>5</td>
+          <td class="w-100">
+            Тип форми:
+            <table class="w-100">
+              <tr>
+                <td class="w-25">
+                  <table class="w-100">
+                    <tr>
+                      <td>
+                        <table><tr><td class="border box"><span>&nbsp;</span></td></tr></table>
+                      </td>
+                      <td class="w-100">після припинення⁷</td>
+                    </tr>
+                  </table>
+                </td>
+                <td class="w-25">
+                  <table class="w-100">
+                    <tr>
+                      <td>
+                        <table><tr><td class="border box"><span>&nbsp;</span></td></tr></table>
+                      </td>
+                      <td class="w-100">призначення пенсії⁶</td>
+                    </tr>
+                  </table>
+                </td>
+                <td class="w-25">
+                  <table class="w-100">
+                    <tr>
+                      <td>
+                        <table><tr><td class="border box"><span>&nbsp;</span></td></tr></table>
+                      </td>
+                      <td class="w-100">перехід на сплату інших податків і зборів⁹</td>
+                    </tr>
+                  </table>
+                </td>
+                <td class="w-25">
+                  <table class="w-100">
+                    <tr>
+                      <td>
+                        <table><tr><td class="border box"><span>&nbsp;</span></td></tr></table>
+                      </td>
+                      <td class="w-100">призначення матеріального забезпечення, страхових виплат¹⁰</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+
+      <div class="thin-spacer"></div>
+
+      <table class="w-100 border">
+        <tr>
+          <td>6</td>
+          <td class="w-50">Дата державної реєстрації припинення</td>
+          <td class="w-50">
+            <div class="thin-spacer"></div>
+            <table class="w-100">
+              <tr>
+                <td class="w-16 border"></td>
+                <td class="w-16">число</td>
+                <td class="w-16 border"></td>
+                <td class="w-16">місяць</td>
+                <td class="w-16 border"></td>
+                <td class="w-16">рік</td>
+              </tr>
+            </table>
+            <div class="thin-spacer"></div>
+          </td>
+        </tr>
+      </table>
+
+      <div class="thin-spacer"></div>
+
+      <table class="w-100 border">
+        <tr>
+          <td>7</td>
+          <td class="w-75">Код основного виду економічної діяльності</td>
+          <td class="w-25 input">
+            62.01
+            <!-- FIXME -->
+          </td>
+        </tr>
+      </table>
+
+      <div class="thin-spacer"></div>
+
+      <table class="w-100 border">
+        <tr>
+          <td>8</td>
+          <td class="w-62 p-0">
+            <table class="w-100">
+              <tr>
+                <td class="w-100">Період перебування фізичної особи-підприємця на спрощеній системі оподаткування,</td>
+                <td>з</td>
+              </tr>
+            </table>
+          </td>
+          <td class="w-12 input">
+            <!-- FIXME -->
+            01.01.2021
+          </td>
+          <td class="w-12 text-right">по</td>
+          <td class="w-12 input">
+            <!-- FIXME -->
+            31.12.2021
+          </td>
+        </tr>
+      </table>
+
+      <div class="thin-spacer"></div>
+
+      <table class="w-100 border">
+        <tr>
+          <td>8.1</td>
+          <td class="w-50">Код категорії застрахованої особи¹¹</td>
+          <td class="w-25 input">
+            <!-- FIXME -->
+            6
+          </td>
+          <td class="w-25"></td>
+        </tr>
+      </table>
+    </section>
+
+    <br><br>
+
+    <section>
+      <h1>9. Визначення сум нарахованого доходу застрахованих осіб та суми нарахованого єдиного внеску</h1>
+ 
+      <table class="w-100 border">
+        <tr>
+          <th class="w-25">Місяць</th>
+          <th class="w-25">Самостійно визначена сума доходу, на яку нараховується єдиний внесок з урахуванням максимальної величини</th>
+          <th class="w-25">Розмір єдиного внеску</th>
+          <th class="w-25">Сума нарахованого єдиного внеску (графа 3 × графа 4)</th>
+        </tr>
+        <tr>
+          <th>1</th>
+          <th>2</th>
+          <th>3</th>
+          <th>4</th>
+        </tr>
+        <tr>
+          <td>Січень</td>
+          <td class="input text-right">6&nbsp;000,00</td>
+          <td class="text-right">22,00</td>
+          <td class="input text-right">1&nbsp;320,00</td>
+        </tr>
+        <tr>
+          <td>Лютий</td>
+          <td class="input text-right">6&nbsp;000,00</td>
+          <td class="text-right">22,00</td>
+          <td class="input text-right">1&nbsp;320,00</td>
+        </tr>
+        <tr>
+          <td>Березень</td>
+          <td class="input text-right">6&nbsp;000,00</td>
+          <td class="text-right">22,00</td>
+          <td class="input text-right">1&nbsp;320,00</td>
+        </tr>
+        <tr>
+          <td>Квітень</td>
+          <td class="input text-right">6&nbsp;000,00</td>
+          <td class="text-right">22,00</td>
+          <td class="input text-right">1&nbsp;320,00</td>
+        </tr>
+        <tr>
+          <td>Травень</td>
+          <td class="input text-right">6&nbsp;000,00</td>
+          <td class="text-right">22,00</td>
+          <td class="input text-right">1&nbsp;320,00</td>
+        </tr>
+        <tr>
+          <td>Червень</td>
+          <td class="input text-right">6&nbsp;000,00</td>
+          <td class="text-right">22,00</td>
+          <td class="input text-right">1&nbsp;320,00</td>
+        </tr>
+        <tr>
+          <td>Липень</td>
+          <td class="input text-right">6&nbsp;000,00</td>
+          <td class="text-right">22,00</td>
+          <td class="input text-right">1&nbsp;320,00</td>
+        </tr>
+        <tr>
+          <td>Серпень</td>
+          <td class="input text-right">6&nbsp;000,00</td>
+          <td class="text-right">22,00</td>
+          <td class="input text-right">1&nbsp;320,00</td>
+        </tr>
+        <tr>
+          <td>Вересень</td>
+          <td class="input text-right">6&nbsp;000,00</td>
+          <td class="text-right">22,00</td>
+          <td class="input text-right">1&nbsp;320,00</td>
+        </tr>
+        <tr>
+          <td>Жовтень</td>
+          <td class="input text-right">6&nbsp;000,00</td>
+          <td class="text-right">22,00</td>
+          <td class="input text-right">1&nbsp;320,00</td>
+        </tr>
+        <tr>
+          <td>Листопад</td>
+          <td class="input text-right">6&nbsp;000,00</td>
+          <td class="text-right">22,00</td>
+          <td class="input text-right">1&nbsp;320,00</td>
+        </tr>
+        <tr>
+          <td>Грудень</td>
+          <td class="input text-right">6&nbsp;500,00</td>
+          <td class="text-right">22,00</td>
+          <td class="input text-right">1&nbsp;430,00</td>
+        </tr>
+        <tr>
+          <th>Усього</th>
+          <td class="input text-right">72&nbsp;500,00</td>
+          <td class="text-right"></td>
+          <td class="input text-right">15&nbsp;950,00</td>
+        </tr>
+      </table>
+    </section>
+
+    <br><br>
+
+    <section>
+      <h1>10. Визначення зобов'язань із сплати єдиного внеску у зв'язку з виправленням самостійно виявлених помилок</h1>
+
+      <table class="w-100 border">
+        <tr>
+          <td>1</td>
+          <td class="w-80 fs-6">Сума єдиного внеску, <span class="fs-5">яка підлягала перерахуванню на небюджетні рахунки, за даними звітного (податкового) періоду, в якому виявлена помилка (рядок Усього графа&nbsp;4 розділу&nbsp;9)</span></td>
+          <td class="w-20 text-center">—</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td class="w-80 fs-6">Уточнена сума нарахованого єдиного внеску за звітний (податковий) період, у якому виявлена помилка</td>
+          <td class="w-20 text-center">—</td>
+        </tr>
+        <tr>
+          <th colspan="3">Розрахунки у зв'язку з виправленням помилки:</th>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td class="w-80 fs-6">Збільшення суми єдиного внеску, яка підлягала перерахуванню на небюджетні рахунки (рядок&nbsp;2 – рядок&nbsp;1, якщо рядок&nbsp;2 &gt; рядка&nbsp;1)</td>
+          <td class="w-20 text-center">—</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td class="w-80 fs-6">Зменшення суми єдиного внеску, яка підлягала перерахуванню на небюджетні рахунки (рядок&nbsp;2 – рядок&nbsp;1, якщо рядок&nbsp;2 &lt; рядка&nbsp;1)</td>
+          <td class="w-20 text-center">—</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td class="w-80 fs-6">Сума пені, <span class="fs-5">яка нарахована платником самостійно відповідно до статті 25 Закону України «Про збір та облік єдиного внеску на загальнообов'язкове державне соціальне страхування»¹³</span></td>
+          <td class="w-20 text-center">—</td>
+        </tr>
+      </table>
+    </section>
+
+    <br><br><br><br><br>
+
+    <section>
+      <div><b>Наведена інформація є вірною:</b></div>
+      <table class="w-100">
+        <tr>
+          <td rowspan="2" class="w-50">Фізична особа - платник податку або уповноважена особа</td>
+          <td class="text-center w-25">___________</td>
+          <td class="text-center w-25">_________________________________</td>
+        </tr>
+        <tr>
+          <td class="text-center fs-6">(підпис)</td>
+          <td class="text-center fs-6">(ініціали та прізвище)</td>
+        </tr>
+      </table>
+    </section>
+ 
+    <div class="demo-page-break"></div>
+
+    <section class="fs-6">
+      <table class="legend">
+        <tr>
+          <td class="symbol">*</td>
+          <td>Подаються та заповнюються фізичними особами-підприємцями — платниками єдиного податку першої-третьої груп, відповідно до пунктів 296.2 та 296.3 статті 296 глави 1 розділу XIV Податкового кодексу України та які, є платниками єдиного внеску відповідно до пункту 4 частини першої статті 4 Закону України «Про збір та облік єдиного внеску на загальнообов'язкове державне соціальне страхування». Додаток 1 не подається та не заповнюється зазначеними платниками, за умови дотримання ними вимог, визначених частинами 4 та 6 статті 4 Закону України «Про збір та облік єдиного внеску на загальнообов'язкове державне соціальне страхування», що дають право на звільнення таких осіб від сплати за себе єдиного внеску. Такі особи можуть подавати Додаток 1 виключно за умови їх добровільної участі у системі загальнообов'язкового державного соціального страхування.</td>
+        </tr>
+        <tr>
+          <td class="symbol">¹</td>
+          <td>У разі подання нової декларації з виправленими показниками до закінчення граничного строку подання декларації за такий самий звітний період зазначається тип декларації «Звітна нова». При цьому обов’язково заповнюються всі рядки та колонки розділу 9 Додатку 1 за період визначений у графі 8.</td>
+        </tr>
+        <tr>
+          <td class="symbol">²</td>
+          <td>У разі подання декларації з виправленими показниками після закінчення граничного строку подання декларації зазначається тип декларації «Уточнююча». При цьому обов’язково заповнюються всі рядки та колонки розділу 9 Додатку 1 за період визначений у графі 8. Для визначення уточнених зобов’язань зі сплати єдиного внеску заповнюється розділ 10 Додатку 1.</td>
+        </tr>
+        <tr>
+          <td class="symbol">³</td>
+          <td>Для призначення пенсії/ матеріального забезпечення, страхових виплат платником обов’язково зазначається тип декларації «Звітна» або «Звітна нова» з додатковою позначкою «Довідкова». При цьому платники одночасно проставляють позначку у розділі 5 тип форми «призначення пенсії» або «призначення матеріального забезпечення, страхових виплат». Тип декларації «Уточнююча» при поданні Додатку 1 для призначення пенсії/ призначення матеріального забезпечення, страхових виплат не застосовується. Подання таких декларацій не звільняє платника від обов’язку подання декларації у строк, встановлений для квартального (річного) податкового (звітного) періоду.</td>
+        </tr>
+        <tr>
+          <td class="symbol">⁴</td>
+          <td>Серію (за наявності) та номер паспорта зазначають фізичні особи, які через релігійні переконання відмовляються від прийняття реєстраційного номера облікової картки платника податків та офіційно повідомили про це відповідний контролюючий орган і мають відмітку у паспорті.</td>
+        </tr>
+        <tr>
+          <td class="symbol">⁵</td>
+          <td>Заповнюється для фізичних осіб, які через свої релігійні переконання відмовляються від прийняття реєстраційного номера облікової картки платника податків та офіційно повідомили про це відповідний контролюючий орган і мають відмітку у паспорті: для власників паспорта у формі книжечки серія та номер паспорта у форматі БКNNXXXXXX, де БК — константа, що вказує на реєстрацію в Пенсійному фонді України за паспортними даними; NN — дві українські літери серії паспорта (верхній регістр); XXXXXX — шість цифр номера паспорта (з ведучими нулями) або для власників паспорта у формі пластикової картки у форматі ПХХХХХХХХХ, де П — константа, що вказує на реєстрацію в Пенсійному фонді України за паспортними даними; ХХХХХХХХХ — дев’ять цифр номера паспорта.</td>
+        </tr>
+        <tr>
+          <td class="symbol">⁶</td>
+          <td>Для призначення пенсії платником вказується арабськими цифрами від 1 до 12 номер календарного місяця, в якому подається декларація. Для забезпечення реалізації права на матеріальне забезпечення та страхових виплат за загальнообов’язковим державним соціальним страхуванням платником вказується арабськими цифрами від 1 до 12 номер календарного місяця, в якому настав страховий випадок.</td>
+        </tr>
+        <tr>
+          <td class="symbol">⁷</td>
+          <td>Заповнюється фізичними особами-підприємцями — платниками єдиного податку, якими здійснено державну реєстрацію припинення підприємницької діяльності. При цьому такі платники одночасно проставляють позначку у розділі 6 — дата державної реєстрації припинення.</td>
+        </tr>
+        <tr>
+          <td class="symbol">⁸</td>
+          <td>Для призначення пенсії зазначається тип декларації «Звітна» або «Звітна нова» з додатковою позначкою «Довідкова». При цьому платники одночасно проставляють позначку у розділі 5 тип форми «призначення пенсії». Тип декларації «Уточнююча» при поданні Додатку 1 для призначення пенсії не застосовується.</td>
+        </tr>
+        <tr>
+          <td class="symbol">⁹</td>
+          <td>Заповнюється фізичними особами-підприємцями, які перейшли на сплату інших податків і зборів. При цьому такі платники одночасно проставляють позначку у розділі 8 — період перебування на спрощеній системі оподаткування.</td>
+        </tr>
+        <tr>
+          <td class="symbol">¹⁰</td>
+          <td>Для призначення матеріального забезпечення, страхових виплат за загальнообов’язковим державним соціальним страхуванням платником обов’язково зазначається тип декларації «Звітна» або «Звітна нова» з додатковою позначкою «Довідкова». При цьому платники одночасно проставляють позначку у розділі 5 тип форми «призначення матеріального забезпечення, страхових виплат». Тип декларації «Уточнююча» при поданні Додатку 1 для призначення матеріального забезпечення, страхових виплат не застосовується.</td>
+        </tr>
+        <tr>
+          <td class="symbol">¹¹</td>
+          <td>Зазначається код категорії застрахованої особи «6» — фізична особа-підприємець на спрощеній системі оподаткування.</td>
+        </tr>
+        <tr>
+          <td class="symbol">¹²</td>
+          <td>Зазначається розмір єдиного внеску, встановлений законом.</td>
+        </tr>
+        <tr>
+          <td class="symbol">¹³</td>
+          <td>Сума пені нараховується з розрахунку 0,1 відсотка своєчасно не сплачених сум, розрахована за кожний день прострочення їх перерахування (зарахування).</td>
+        </tr>
+      </table>
+    </section>
+  </body>
+</html>
